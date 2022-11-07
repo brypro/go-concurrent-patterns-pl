@@ -54,7 +54,7 @@ func main() {
 	for i := 0; i < 10; i++ {
 		wg.Add(1)
 		go func() {
-			getDatabaseInstance2()
+			getDatabaseInstance()
 			defer wg.Done()
 		}()
 	}
