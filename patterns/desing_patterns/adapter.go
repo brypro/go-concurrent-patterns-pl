@@ -1,5 +1,12 @@
 package main
 
+/*
+adapter is a structural design pattern
+that allows objects with incompatible interfaces
+to collaborate.
+
+*/
+
 import "fmt"
 
 type Payment interface {
